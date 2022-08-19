@@ -1,0 +1,499 @@
+*{
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+#_x31_-outline-expand{
+  width: 300px;
+  margin: 1% auto;
+  display: block;
+  background-color: grey;
+  
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0, .98,  1, -0.02);
+  transition: all .5s linear;
+  
+}
+#_x31_-outline-expand:active{
+  width: 600px;
+  height: 600px;
+  background-color: black;
+  border-width: 10px;
+  border-radius: 50%;
+  transform: rotate(180deg)
+}
+
+.c1, .c2, .c3, .p0, .p1, .p2, .p3, .p4, .p5, .c6, .c7, .c8, .c9, .c10, .c11,
+.c12, .c13, .c14, .c15, .c16, .c17, .c18, .c19, .c20, .c21, .c22, .c23{
+  stroke: rgb(38, 145, 28);
+  stroke-width: 1px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 2000;
+}
+.p0{
+  animation:p0 6s ease-in-out;
+}
+.p1{
+  animation:p1 7s ease-in-out;
+}
+.p2{
+  animation:p2 8s ease-in-out;
+}
+.p3{
+  animation:p3 9s ease-in-out;
+}
+.p4{
+  animation:p4 10s ease-in-out;
+}
+.p5{
+  animation:p5 11s ease-in-out;
+}
+.c3 {
+  animation:p5 13s ease-in-out;
+}
+.c1 {
+  animation: p5 19s ease-in-out;
+}
+.c2 {
+  animation: p5 19s ease-in-out;
+}
+.c6 {
+  animation: p5 25s ease-in-out;
+}
+.c7 {
+  animation: p5 25s ease-in-out;
+}
+.c8 {
+  animation: p5 25s ease-in-out;
+}
+.c9 {
+  animation: p5 25s ease-in-out;
+}
+.c10 {
+  animation: p5 25s ease-in-out;
+}
+.c11 {
+  animation: p5 25s ease-in-out;
+}
+.c12 {
+  animation: p5 25s ease-in-out;
+}
+.c13 {
+  animation: p5 25s ease-in-out;
+}
+.c14 {
+  animation: p5 25s ease-in-out;
+}
+.c15 {
+  animation: p5 25s ease-in-out;
+}
+.c16 {
+  animation: p5 25s ease-in-out;
+}
+.c17 {
+  animation: p5 25s ease-in-out;
+}
+.c18 {
+  animation: p5 25s ease-in-out;
+}
+.c19 {
+  animation: p5 25s ease-in-out;
+}
+.c20 {
+  animation: p5 25s ease-in-out;
+}
+.c21 {
+  animation: p5 25s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes p0 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes p1 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes p2 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes p3 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes p4 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes p5 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes c3 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes c2 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes c1 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c6 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c7 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c8 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c9 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c10 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c11 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c12 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c13 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c14 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c15 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c16 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c17 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c18 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c19 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c20 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes c21 {
+  0%
+  {
+    stroke-dashoffset: 2000;
+  }
+  100%
+  {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+h2{
+  text-align: center;
+
+}
+
+input[type=text] {
+  text-align: center;
+  margin:auto;
+  margin-top: 30px;
+  display: flex;
+  flex-basis: 60%;
+  border: 1px solid black;
+  border-radius: 20px;
+  border-width: 5px;
+  height: 30px;
+  width: 200px;
+  position: relative;
+  
+}
+
+input[type=submit]{
+  margin:auto;
+  
+  flex-basis: 60%;
+  margin-top: 30px;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  font-size:0.875em;
+      display:block;
+      
+      
+      width:30%;
+  
+ 
+  opacity: 0.6;
+  transition: 0.15s;
+  
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover{
+  opacity: 1;
+
+}
+
+.col{
+  position: relative;
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+}
+.col .controller {
+  width: 30%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 6px;
+  text-align: center;
+  
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;  
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 25px;
+    
+    align-items: center;
+    text-align: center;
+  }
+  h2{
+    font-size: 25px;
+    text-align: center;
+  }
+  span{
+    font-size: 20px;
+  }
+ 
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 10px;
+    text-align: center;
+  }
+  h2{
+    font-size: 18px;
+  }
+  span{
+    font-size: 14px;
+  }
+  input[type=submit]{
+    width: 100%;
+  }
+  input[type=text]{
+    width: 140px;
+    height: 40px;
+  }
+}
