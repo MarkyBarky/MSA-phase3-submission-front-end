@@ -1,9 +1,10 @@
 *{
   font-family: sans-serif;
   box-sizing: border-box;
+  
 }
 #_x31_-outline-expand{
-  width: 300px;
+  width: 18.75rem;
   margin: 1% auto;
   display: block;
   background-color: grey;
@@ -15,10 +16,10 @@
   
 }
 #_x31_-outline-expand:active{
-  width: 600px;
-  height: 600px;
+  width: 45.25rem;
+  height: 45.25rem;
   background-color: black;
-  border-width: 10px;
+  border-width: 0.625rem;
   border-radius: 50%;
   transform: rotate(180deg)
 }
@@ -391,9 +392,10 @@ input[type=text] {
   border: 1px solid black;
   border-radius: 20px;
   border-width: 5px;
-  height: 30px;
-  width: 200px;
+  height: 50px;
+  width: 21.25rem;
   position: relative;
+  font-size: 1rem;
   
 }
 
@@ -401,15 +403,15 @@ input[type=submit]{
   margin:auto;
   
   flex-basis: 60%;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   background-color: black;
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 1rem 2rem;
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   position: relative;
-  font-size:0.875em;
+  font-size:0.875rem;
       display:block;
       
       
@@ -426,6 +428,7 @@ input[type=submit]{
 
 input[type=submit]:hover{
   opacity: 1;
+  
 
 }
 
@@ -461,39 +464,78 @@ input[type=submit]:hover{
   }
 }
 
+.image-banner{
+  display: none;
+}
+
 @media screen and (min-width: 601px) {
   div.example {
-    font-size: 25px;
+    font-size: 1.5625rem;
     
     align-items: center;
     text-align: center;
   }
   h2{
-    font-size: 25px;
+    font-size: 3.5rem;
     text-align: center;
+    
   }
   span{
-    font-size: 20px;
+    font-size: 2.5rem;
+    
   }
+  .image-banner{
+    display: block;
+    width: 100%;
+    padding-bottom: 1.875rem;
+    height: 12.5rem;
+  }
+  input[type=submit]{
+    font-size: 3rem;
+    
+  }
+  input[type=text]{
+    font-size: 3rem;
+  }
+  
  
 }
 
 @media screen and (max-width: 600px) {
   div.example {
-    font-size: 10px;
+    font-size: 0.625rem;
     text-align: center;
   }
   h2{
-    font-size: 18px;
+    font-size: 3rem;
+    color: white;
   }
   span{
-    font-size: 14px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: white;
   }
   input[type=submit]{
     width: 100%;
+    text-transform: uppercase;
+    background-color: white;
+    color: red;
+    font-size: 3rem;
+  
   }
   input[type=text]{
-    width: 140px;
-    height: 40px;
+    
+    height: 5rem;
+    border: 1px solid white;
+    background-color: black;
+    font-size: 3rem;
+  }
+  body{
+    background-color: black;
+    color: white;
+    font-size: 14px;
   }
 }
+
+html{overflow-x: hidden;}
+

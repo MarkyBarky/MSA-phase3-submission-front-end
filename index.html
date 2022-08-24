@@ -4,12 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#009578">
   <title>Mark's covid19 tracker app</title>
   <link rel="stylesheet" href="styles.css">
-  
+  <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+  <link rel="apple-touch-icon" href="images/mask.PNG">
 </head>
 <body>
+  
+
+  </div>
+    <img class="image-banner" src ="images/covidpic.png" alt="banner">
   <h2>Mark's covid19 tracker app</h2>
+  <div id="covid-facts"></div>
+  <button id="load-more">Load Some Facts</button>
   <form id="myForm">
   <input type="text" id="country" placeholder="Country Name" required>
   <input type="submit" value="search">
@@ -18,8 +26,10 @@
   <h2 id="confirmed"></h2>
   <h2 id="recovered"></h2>
   <h2 id="deaths"></h2>
-</div>
   
+  
+</div>
+
     <div id="virus">
    <circle xmlns="http://www.w3.org/2000/svg" class="c1" cx="32" cy="32" r="21" style="fill:#221b1b;"/>
    <circle xmlns="http://www.w3.org/2000/svg" class="c2" cx="32" cy="32" r="19" style="fill:#0dc93c;"/>
@@ -53,15 +63,15 @@
 </div>
   <div class="row">
     <div class="column">
-      <img src="covid19.jpg" alt="virus" style="width:100%">
+      <img src="images/covid19.jpg" alt="virus" style="width:100%">
       <span class="caption">Fever, cough, tiredness and loss of taste or smell are the most common symptons</span>
     </div>
     <div class="column">
-      <img src="home.png" alt="stayhome" style="width:100%">
+      <img src="images/home.png" alt="stayhome" style="width:100%">
       <span class="caption">Don't risk spreading the virus if you are infected and make sure to isolate</span>
     </div>
     <div class="column">
-      <img src="mask.PNG" alt="mask" style="width:100%">
+      <img src="images/mask.PNG" alt="mask" style="width:100%">
       <span class="caption">Wearing masks can help limit the spread of COVID-19!</span>
     </div>
   </div>
