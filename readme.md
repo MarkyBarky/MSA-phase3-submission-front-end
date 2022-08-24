@@ -1,5 +1,8 @@
 ![screen1](screen1.PNG)
+
+
 This is the desktop view
+and below is the mobile view
 ![screen2](screen2.PNG)
 
 A very simple covid19 tracker app which calls the covid19 api to return the number of deaths and recovery from country input.
