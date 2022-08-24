@@ -1,3 +1,7 @@
+![screen1](screen1.PNG)
+This is the desktop view
+![screen2](screen2.PNG)
+
 A very simple covid19 tracker app which calls the covid19 api to return the number of deaths and recovery from country input.
 
 Type in a country name to find out the numbers.
