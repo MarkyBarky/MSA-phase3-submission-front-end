@@ -8,4 +8,4 @@ REQUIREMENTS:
 3. host on an http server through node.js
 4. create a proxy to call by running npm install -g local-cors-proxy
 -> this allows you to use the mock api 
-5. run lcp --proxyUrl http://localhost:8010
+5. run lcp --proxyUrl https://marky-covid-api.herokuapp.com/disease

@@ -61,7 +61,7 @@ const loadMoreBtn = document.getElementById("load-more");
 
 
 const loadSomeCovidFacts = () => {
-  const MY_COVID_API = "http://localhost:8010/proxy";
+  const MY_COVID_API = "http://localhost:8010/proxy/disease";
   fetch(MY_COVID_API)
   .then(response => response.json())
   .then(responseJson =>  {
