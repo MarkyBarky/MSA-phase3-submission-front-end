@@ -376,28 +376,37 @@
     stroke-dashoffset: 0;
   }
 }
-
-
 h2{
+  font-size: 3rem;
+  color: white;
   text-align: center;
-
 }
 
-input[type=text] {
+span{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+input[type=text]{
+    
+  height: 5rem;
+  border: 1px solid white;
+  background-color: black;
+  font-size: 3rem;
   text-align: center;
+  width: 21.25rem;
+  border-radius: 20px;
+  
+  position: relative;
   margin:auto;
   margin-top: 30px;
   display: flex;
   flex-basis: 60%;
-  border: 1px solid black;
-  border-radius: 20px;
-  border-width: 5px;
-  height: 50px;
-  width: 21.25rem;
-  position: relative;
-  font-size: 1rem;
-  
 }
+
+
+
 
 input[type=submit]{
   margin:auto;
@@ -426,28 +435,35 @@ input[type=submit]{
   
 }
 
-input[type=submit]:hover{
-  opacity: 1;
-  
-
-}
-
-.col{
-  position: relative;
+input[type=submit]{
+  margin:auto;
+  border: none;
   flex-basis: 60%;
-  display: flex;
-  align-items: center;
+  margin-top: 1.875rem;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: white;
+  color: red;
+  font-size: 3rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  position: relative;
+
 }
-.col .controller {
-  width: 30%;
+
+
+
+
+
+div.example {
+  font-size: 0.625rem;
+  text-align: center;
 }
+
+
 
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 6px;
-  text-align: center;
-  
+  width: 100%;
 }
 
 /* Clearfix (clear floats) */
@@ -457,17 +473,17 @@ input[type=submit]:hover{
   display: table;  
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-}
 
 .image-banner{
   display: none;
 }
+body{
+  background-color: black;
+  color: white;
+  font-size: 14px;
+}
 
+/* This is for the desktop view */
 @media screen and (min-width: 601px) {
   div.example {
     font-size: 1.5625rem;
@@ -478,11 +494,13 @@ input[type=submit]:hover{
   h2{
     font-size: 3.5rem;
     text-align: center;
+    color: black;
     
   }
   span{
-    font-size: 2.5rem;
-    
+    font-size: 2rem;
+    color: black;
+    text-transform: lowercase;
   }
   .image-banner{
     display: block;
@@ -494,48 +512,82 @@ input[type=submit]:hover{
     font-size: 3rem;
     
   }
-  input[type=text]{
+  input[type=text] {
+    text-align: center;
+    margin:auto;
+    margin-top: 30px;
+    display: flex;
+    flex-basis: 60%;
+    border: 1px solid black;
+    border-radius: 20px;
+    border-width: 5px;
+    height: 50px;
+    width: 21.25rem;
+    position: relative;
     font-size: 3rem;
+    background-color: white;
+    
   }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 6px;
+    text-align: center;
+    
+  }
+  input[type=submit]:hover{
+    opacity: 1;
+    
+  
+  }
+  
+  .col{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+  }
+  .col .controller {
+    width: 30%;
+  }
+  body{
+    background-color: white;
+    color: black;
+    
+  }
+  input[type=submit]{
+  
+    background-color: black;
+    
+    color: white;
+    
+    font-size: 1.5rem;
+    position: relative;
+    
+        display:block;
+        
+        
+        width:30%;
+    
+   
+    
+    transition: opacity 0.15s;
+    
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+  
+  input[type=submit]:hover{
+    opacity: 0.6;
+    
+  
+  }
+  
   
  
 }
 
-@media screen and (max-width: 600px) {
-  div.example {
-    font-size: 0.625rem;
-    text-align: center;
-  }
-  h2{
-    font-size: 3rem;
-    color: white;
-  }
-  span{
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    color: white;
-  }
-  input[type=submit]{
-    width: 100%;
-    text-transform: uppercase;
-    background-color: white;
-    color: red;
-    font-size: 3rem;
-  
-  }
-  input[type=text]{
-    
-    height: 5rem;
-    border: 1px solid white;
-    background-color: black;
-    font-size: 3rem;
-  }
-  body{
-    background-color: black;
-    color: white;
-    font-size: 14px;
-  }
-}
 
 html{overflow-x: hidden;}
 
