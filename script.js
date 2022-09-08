@@ -61,7 +61,7 @@ const loadMoreBtn = document.getElementById("load-more");
 
 
 const loadSomeCovidFacts = () => {
-  const MY_COVID_API = "http://localhost:8010/proxy/disease";
+  const MY_COVID_API = "https://marky-covid-api.herokuapp.com/disease";
   fetch(MY_COVID_API)
   .then(response => response.json())
   .then(responseJson =>  {
