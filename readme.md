@@ -9,10 +9,17 @@ A very simple covid19 tracker app which calls the covid19 api to return the numb
 
 Type in a country name to find out the numbers.
 
-REQUIREMENTS:
+STEPS:
 1. clone the files into your local and run it
 2. run npm install
 3. host on an http server through node.js
 4. create a proxy to call by running npm install -g local-cors-proxy
 -> this allows you to use the mock api 
 5. run lcp --proxyUrl https://marky-covid-api.herokuapp.com/disease
+
+MSA REQUIREMENTS:
+* UI scalable
+* Mobile first (media query breakpoints)
+* Fluid animation (virus)
+* Progressive Web App
+* Api connection to my own Api on the cloud = https://marky-covid-api.herokuapp.com
